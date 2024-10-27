@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "netlify dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -15,15 +15,20 @@
   "license": "GPL-3.0-or-later",
   "description": "",
   "dependencies": {
-    "next": "^15.0.0",
+    "@netlify/blobs": "^8.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-feather": "^2.0.10"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.8.1",
     "@types/node": "22.7.8",
     "@types/react": "^18.3.11",
     "autoprefixer": "^10.4.20",
+    "eslint": "8.57.1",
+    "eslint-config-next": "15.0.1",
+    "netlify-cli": "^17.37.1",
+    "next": "^15.0.0",
     "postcss": "^8.4.47",
     "sass": "^1.80.3",
     "tailwindcss": "^3.4.14",
